@@ -1,0 +1,7 @@
+ width="50%">
+ <organigram layout="top" mode="min" compact="false" backgroundColor="#eee8f7" boxBackgroundColor="#a981d3" boxForegroundColor="#ffffff">
+  <unit name="eIrOcA" link="http://www.eiroca.net">
+   <unit name="eNrIcO" />
+   <unit name="sImOnA" />
+  </unit>
+ </organigram> 
