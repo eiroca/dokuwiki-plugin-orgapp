@@ -11,4 +11,4 @@ Syntax:
 
 The chart can be defined either directly in the Wiki page or in an external file. In the first case is sufficient to include the definition within the tag orgapp, in the second case you should use the attribute url to define the URL of the definition.
 
-Complete documentation here: http://www.eiroca.net/wiki/doku.php?id=en:software:dokuwiki:orgapp
+Complete documentation here: http://www.eiroca.net/doku_orgapp

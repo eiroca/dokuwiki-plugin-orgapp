@@ -2,12 +2,11 @@
 /**
  * Plugin orgapp: OrgApp applet integration - GPL>=3 - See licence COPYING file
  * @author Enrico Croce & Simona Burzio (staff@eiroca.net)
- * @copyright Copyright (C) 2009-2011 eIrOcA - Enrico Croce & Simona Burzio
+ * @copyright Copyright (C) 2009-2013 eIrOcA - Enrico Croce & Simona Burzio
  * @license GPL >=3 (http://www.gnu.org/licenses/)
  * @version 1.0.3
- * @link http://www.eiroca.net
+ * @link http://www.eiroca.net/doku_orgapp
  */
-/* Must be run within Dokuwiki */
 if (!defined('DOKU_INC')) die();
 if (!defined('DOKU_PLUGIN')) define('DOKU_PLUGIN',DOKU_INC.'lib/plugins/');
 if (!defined('DOKU_PLUGIN_ORGAPP')) define('DOKU_PLUGIN_ORGAPP',DOKU_PLUGIN.'orgapp/');
