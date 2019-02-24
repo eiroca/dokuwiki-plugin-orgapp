@@ -24,7 +24,7 @@ class syntax_plugin_orgapp extends DokuWiki_Syntax_Plugin {
 	function postConnect() {
 		$this->Lexer->addExitPattern('</orgapp>', 'plugin_orgapp');
 	}
-	function handle($match, $state, $pos, &$handler){
+	function handle($match, $state, $pos, Doku_Handler $handler){
 		switch ($state) {
 			case DOKU_LEXER_ENTER :
 				$out['width']= $this->getConf('width');
@@ -51,8 +51,10 @@ class syntax_plugin_orgapp extends DokuWiki_Syntax_Plugin {
 				return array ($state, '');
 		}
 	}
+	
 	var $data;
-	function render($mode, &$renderer, $data) {
+	
+	function render($mode, Doku_Renderer $renderer, $data) {
 		$renderer->info['cache'] = false;
 		if($mode == 'xhtml'){
 			list($state, $match) = $data;

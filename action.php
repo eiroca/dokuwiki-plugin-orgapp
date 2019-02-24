@@ -12,7 +12,7 @@ if (!defined('DOKU_PLUGIN')) define('DOKU_PLUGIN',DOKU_INC.'lib/plugins/');
 if (!defined('DOKU_PLUGIN_ORGAPP')) define('DOKU_PLUGIN_ORGAPP',DOKU_PLUGIN.'orgapp/');
 require_once(DOKU_PLUGIN . 'action.php');
 class action_plugin_orgapp extends DokuWiki_Action_Plugin {
-	function register(&$controller) {
+    function register(Doku_Event_Handler $controller) {
 		$controller->register_hook('TOOLBAR_DEFINE', 'AFTER', $this, 'toolbar_add_button_orgapp', array ());
 	}
 	function toolbar_add_button_orgapp(&$event, $param) {
