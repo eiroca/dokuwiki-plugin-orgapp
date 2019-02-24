@@ -1,6 +1,7 @@
+base   orgapp
 author eIrOcA
 email  staff@eiroca.net
-date   2013-06-29
+date   2019-02-24
 name   orgapp -- OrgApp Plugin
 desc   Generate HTML code to integrate OrgApp applet (see http://www.eiroca.net/orgapp)
-url    http://www.eiroca.net/dokuwiki_orgapp
+url    https://www.eiroca.net/doku_orgapp
