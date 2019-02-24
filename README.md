@@ -1,6 +1,6 @@
 # dokuwiki-plugin-orgapp
 
-Dokuwiki plugin to draw organization charts; the plug-in is present in the Dokuwiki tools collection.
+Dokuwiki plugin to draw organization charts.
 
 Generates charts using the [applet orgapp](http://www.eiroca.net/orgapp/).
 
